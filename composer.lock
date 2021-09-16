@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "955d9c6721616c34d2abceb3d1d37d8a",
+    "content-hash": "cddf7a354ff6af11374f70fd0ab5ff31",
     "packages": [
         {
             "name": "aderaaij/wp-headless-theme",
@@ -1143,6 +1143,15 @@
             "time": "2021-06-15T16:14:17+00:00"
         },
         {
+            "name": "wp-acf-graphql/wp-acf-graphql",
+            "version": "0.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/wp-graphql/wp-graphql-acf/archive/master.zip"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "wp-graphql/wp-graphql",
             "version": "v1.6.5",
             "source": {
@@ -1222,6 +1231,24 @@
                 "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.6.5"
             },
             "time": "2021-09-09T19:03:36+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/disable-gutenberg",
+            "version": "2.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
+                "reference": "tags/2.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.2.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
         },
         {
             "name": "wpackagist-plugin/wp-gatsby",

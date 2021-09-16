@@ -50,6 +50,19 @@
       }
     },
     {
+      "type": "package",
+      "package": {
+        "name": "wp-acf-graphql/wp-acf-graphql",
+        "version": "0.2.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://github.com/wp-graphql/wp-graphql-acf/archive/master.zip"
+        }
+      }
+    },
+    {
       "type": "vcs",
       "url": "https://github.com/aderaaij/wp-headless-theme.git"
     }
@@ -65,7 +78,9 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wp-graphql/wp-graphql": "^1.6.5",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.10.2",
+    "wp-acf-graphql/wp-acf-graphql": "*",
     "aderaaij/wp-headless-theme": "dev-main",
+    "wpackagist-plugin/disable-gutenberg": "*",
     "wpackagist-plugin/wp-gatsby": "*"
   },
   "require-dev": {
