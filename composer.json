@@ -51,7 +51,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/carolburri/wp-headless.git"
+      "url": "https://github.com/aderaaij/wp-headless-theme.git"
     }
   ],
   "require": {
@@ -66,7 +66,7 @@
     "wp-graphql/wp-graphql": "^1.6.5",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.10.2",
     "aderaaij/wp-headless-theme": "dev-main",
-    "wpackagist-plugin/wp-gatbsy": "*"
+    "wpackagist-plugin/wp-gatsby": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.6",
